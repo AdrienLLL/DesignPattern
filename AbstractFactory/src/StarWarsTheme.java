@@ -5,7 +5,7 @@ import javax.swing.*;
  */
 public class StarWarsTheme extends JButton implements IThemeFactory
 {
-    public JButton getButton(){
+    public JButton GetButton(){
         return new StarWarsThemeButton().createButton();
     }
 }

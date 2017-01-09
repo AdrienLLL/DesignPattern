@@ -5,7 +5,7 @@ import javax.swing.*;
  */
 public class MarioTheme extends JButton implements IThemeFactory{
 
-    public JButton getButton() {
+    public JButton GetButton() {
         return new MarioThemeButton().createButton();
     }
 }

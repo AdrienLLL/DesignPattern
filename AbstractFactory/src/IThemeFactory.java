@@ -5,5 +5,5 @@ import javax.swing.*;
  */
 public interface IThemeFactory {
 
-    JButton getButton();
+    JButton GetButton();
 }
